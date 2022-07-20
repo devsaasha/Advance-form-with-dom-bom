@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=MonteCarlo&family=Tapestry&display=swap" rel="stylesheet">
+    <!------------------------- Font Awesome-------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- ----------------------------Bootstrap------------------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <title>Advance form</title>
+</head>
+<body>
+   
+     <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-7 my-3">
+                <div class="card shadow">
+                   <div class="card-body">
+                        <div class="card-header">
+                            <h2 class="text-center">Student info</h2>
+                        </div>
+                        <div class="msg mt-1"></div>
+                        <form action="" id="students_form">
+                            <div class="my-3 mx-4">
+                                <label for=""><h5>Name</h5></label>
+                                <input class="form-control" name="name" type="text">
+                            </div>
+                            <div class="my-3 mx-4">
+                                <label for=""><h5>Email</h5></label>
+                                <input class="form-control" name="email" type="email">
+                            </div>
+                            <div class="my-3 mx-4">
+                                <label for=""><h5>Phone</h5></label>
+                                <input class="form-control" name="phone" type="number">
+                            </div>
+                            <div class="my-3 mx-4">
+                                <label for=""><h5>Username</h5></label>
+                                <input class="form-control" name="uname" type="text">
+                            </div>
+                            <div class="my-3 mx-4">
+                                <label for=""><h5>Gender</h5></label><br>
+                               <label>
+                                <input class="ms-3" name="gender" type="radio" value="male">
+                               </label><span class="ms-1">Male</span>
+                               <label>
+                                <input class="ms-3" name="gender" type="radio" value="female">
+                               </label><span class="ms-1">Female</span>
+                            </div>
+                            <div class="my-3 mx-4">
+                                <label for=""><h5>Course</h5></label><br>
+                               <label>
+                                <input class="ms-3" name="course" type="checkbox" value="CSE">
+                               </label><span class="ms-1">CSE</span>
+                               <label>
+                                <input class="ms-3" name="course" type="checkbox" value="EEE">
+                               </label><span class="ms-1">EEE</span>
+                               <label>
+                                <input class="ms-3" name="course" type="checkbox" value="IT">
+                               </label><span class="ms-1">IT</span>
+                            </div>
+                            <div class="my-3 mx-4">
+                                <input class="form-control btn btn-danger" name="submit" type="submit">
+                            </div>
+                        </form>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
